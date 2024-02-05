@@ -1,0 +1,168 @@
+.navbar{
+    height: 50px;
+    z-index: 1;
+}
+
+.color{
+    color: #0353a9;
+}
+.navcan{
+    position: absolute;
+    left: 1300px;
+    top: 10px;   
+    z-index: 1;
+}
+
+/* ----------------------------section1 start -----------------------*/
+
+.section1{
+    margin-top: 50px;
+}
+
+.s1-img{
+    height: 630px;
+    width: 100%;
+}
+
+.s1-h-carousel{
+    position: absolute;
+    bottom: 150px;
+    right: 1500px;
+    
+}
+
+.s1-p-right{
+    position: absolute;
+    bottom: 150px;
+    left: 1000px;
+}
+
+/* ----------------------------section2 start -----------------------*/
+.section2{
+    background-image: url("assests/section2_bgimg.jpg");
+    padding: 50px;
+}
+.s2-btn:hover{
+    background-color: #1A4CA3;
+    color: white;
+    border: none;
+
+}
+
+
+
+
+/* ----------------------------section3 start -----------------------*/
+
+
+.section3{
+    padding: 100px;
+
+}
+
+.s3-h{
+    color:#0353a9;
+}
+
+.s3col1 {
+    background-image: url("assests/section3img1.jpg");
+    background-size: cover;
+    height: 600px;
+    padding-top: 450px;
+}
+
+.s3col1:hover,.s3col2:hover,.s3col3:hover{
+    transform: scale(1.2,1.01);
+    transition-duration: 1s;
+}
+
+.s3-p{
+    display: none;
+}
+
+.s3col1:hover .s3-p,.s3col2:hover .s3-p,.s3col3:hover .s3-p{
+    display: block;
+    background-color: grey;
+    width: 100%;
+
+}
+
+.s3col2{
+    background-image: url("assests/section3img2.jpg");
+    padding-top: 450px;
+}
+
+.s3col3{
+    background-image: url("assests/section3img3.jpg");
+    padding-top: 450px;
+}
+
+/* ----------------------------section4 start -----------------------*/
+
+.section4{
+    background-image: url(assests/section2_bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+
+.col1-s4{
+    background-image: url("assests/section4img.avif");
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col2-s4{
+    padding-bottom: 25px;
+    padding-top: 25px;
+  
+}
+
+/* ----------------------------section6 start -----------------------*/
+
+.section6{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right:100px;
+    padding-bottom: 50px;
+}
+
+
+
+
+.section6 a{
+    text-decoration: none;
+  
+}
+.section6 a:hover{
+    border-bottom: solid skyblue;
+    color: aqua;
+}
+
+.section6 ul li{
+    overflow: hidden;
+    list-style-type:none;
+   
+}
+
+/* ----------------------------section7 start -----------------------*/
+.section7{
+    background-color: #134377;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.s7-row{
+
+    padding-left: 200px;
+}
+
+.cols7c2 p{   
+    position: absolute;
+    right: 250px;
+    
+}
