@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background-color: #0E1422;
+   
+}
+.a{
+    color: white !important;
+    font-weight: 600;
+}
+.section2{
+    background-color: #0E1422;
+}
+.section2 h1{
+    color: #DC90DB;
+}
+.section2 h3{
+    color: #D0D4DE;
+}
+.sec2div1 button{
+    border: 0;
+    background-image: linear-gradient(red 5% , skyblue 80%);
+    font-weight: 600;
+}
+/* ----------------------section3--------------------------------------- */
+.sec3sp1{
+    border-bottom: 8px solid red;
+    border-radius: 10px;
+}
+.sec3div2 p{
+    text-align: justify;
+}
+/* --------------------------------section4-------------------------------------- */
+.section4{
+    background-image: linear-gradient( skyblue , pink );
+}
+/* ----------------------------section5--------------------------------------------- */
+.sec5div{
+    background-color: #0E1422;
+    color: aqua;
+    padding: 50px 0;
+    font-size: 50px;
+    line-height: 150px;
+    border-radius: 20px;
+}
+.sec5div:hover{
+    background-image: linear-gradient(red 5% , skyblue 80%);
+    color: white;
+}
+.sec5div2{
+    line-height: 182px;
+}
+
+/* -------------------------------------section6------------------------------------------- */
+.sec6div{
+box-shadow:6px 6px 2px lightgreen ;
+border-radius: 20px;
+}
+.sec6div1{
+    box-shadow:6px 6px 2px lightpink ;
+    border-radius: 20px;
+}
+
+/* --------------------------------------section7----------------------------------------- */
+.sec7div{
+    border: 2px solid;
+    border-radius: 20px;
+}
+.section8{
+    background-image: linear-gradient(to right, rgb(243, 106, 232) , rgb(122, 204, 237));
+}
