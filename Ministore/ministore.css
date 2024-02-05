@@ -1,0 +1,123 @@
+/* ////////////////////////////////////Section4 Start/////////////////////////////////////////// */
+
+
+.s4_hoverbtn{
+    position: absolute;
+    opacity: 0;
+    width: 60%;
+    bottom: 70px;
+    left: 70px;
+    background-color: black;
+}
+.s4_img1hover{
+    background-image: url(assets/images/asset\ 2.jpeg);
+}
+
+.s4_img2hover{
+    background-image: url(assets/images/asset\ 3.jpeg);
+}
+
+
+.s4_img3hover{
+    background-image: url(assets/images/asset\ 4.jpeg);
+}
+
+
+.s4_img4hover{
+    background-image: url(assets/images/asset\ 5.jpeg);
+}
+
+
+.s4_img1hover,.s4_img2hover,.s4_img3hover,.s4_img4hover{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.col_s4 {
+    height: 400px;
+}
+.s4_hoverbtn:hover{
+    opacity: 1;
+    background-color: rgb(48, 172, 172) !important;
+}
+.s4_img1hover:hover + .s4_hoverbtn, .s4_img2hover:hover + .s4_hoverbtn, .s4_img3hover:hover + .s4_hoverbtn, .s4_img4hover:hover + .s4_hoverbtn{
+    opacity: 1;
+    transition: 0.5s ease-out;
+}
+
+
+
+/* ////////////////////////////////////Section5 Start/////////////////////////////////////////// */
+.section5{
+    margin-top: 100px !important;
+}
+
+.cols5{
+    height: 400px;
+}
+
+.s5img1_hover,.s5img2_hover,.s5img3_hover,.s5img4_hover{
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.s5img1_hover{
+    background-image: url(assets/images/asset\ 8.jpeg);  
+}
+
+.s5img2_hover{
+    background-image: url(assets/images/asset\ 9.jpeg);
+}
+
+.s5img3_hover{
+    background-image: url(assets/images/asset\ 10.jpeg);
+}
+
+
+.s5img4_hover{
+    background-image: url(assets/images/asset\ 11.jpeg);
+}
+
+.s5_hoverbtn{
+    position:absolute;
+    left: 100px;
+    bottom: 70px;
+    opacity: 0;
+}
+
+.s5_hoverbtn:hover{
+    background-color: rgb(22, 180, 180) !important;
+    opacity: 1;
+}
+
+.s5img1_hover:hover + .s5_hoverbtn, .s5img1_hover:hover + .s5_hoverbtn,.s5img2_hover:hover + .s5_hoverbtn,.s5img3_hover:hover + .s5_hoverbtn,.s5img4_hover:hover + .s5_hoverbtn{
+    opacity: 1;
+    transition: 0.5s ease-out;
+}
+
+
+
+
+/* ////////////////////////////////////Section6 Start/////////////////////////////////////////// */
+
+.section6{
+    margin-top: 100px;
+    background-color: #EDF1F3;
+}
+.col_s6{
+    height:400px !important ;
+    /* right: 50px !important; */
+}
+.s6img{
+    background-image: url(assets/images/asset\ 26.png);
+    width: 100%;
+    height: 100%;
+}
+
+
+/* //////////////////////////////////section7//////////////////////////////////////////////// */
+
+.section7{
+    margin-top: 100px !important;
+}

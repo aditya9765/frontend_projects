@@ -1,0 +1,277 @@
+.b1 {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.b2 {
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+.offcanvas button:hover {
+    background-color: grey;
+
+}
+
+.b2:hover {
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+.section1 h1 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: #FBFCFF;
+    font-size: 80px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 48%;
+    font-size: 30px;
+}
+
+.section1 video{
+    position: relative;
+    top: -135px;
+    width: 100%;
+}
+.m:hover {
+    background-color: grey;
+}
+
+.section1 ul li {
+    list-style-type: none;
+}
+
+.section1 ul li a {
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+
+}
+
+.section1 ul li:hover {
+    background-color: rgb(236, 232, 232, 50);
+}
+
+.s2row {
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.s2box1 {
+    background-image: url("assets/images/section2img1.webp");
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+
+.s2box2 {
+    background-image: url("assets/images/section2img2.webp");
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    
+}
+
+.s2box3 {
+    background-image: url("assets/images/section2img3.webp");
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+
+.s2box1,
+.s2box2,
+.s2box3 {
+    padding-top: 200px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+}
+
+.hide-s2 {
+    overflow: hidden;
+}
+
+.s2box1:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+
+}
+
+.s2box2:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+}
+
+.s2box3:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+}
+
+/*------------------------------------Section3 Start --------------------------------------*/
+.section3{
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+.s3row1 {
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+.s3box1,
+.s3box2,
+.s3box3,
+.s3box4,
+.s3box5,
+.s3box6 {
+    background-size: cover;
+    width: 500px;
+    height: 650px;
+    border-radius: 20px;
+    padding-top: 400px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+
+}
+
+.s3box1 {
+    background-image: url("assets/images/section3img1.webp");
+
+}
+
+.s3box2 {
+    background-image: url("assets/images/section3img2.webp");
+
+}
+
+.s3box3 {
+    background-image: url("assets/images/section3img3.webp");
+
+}
+
+.s3box4 {
+    background-image: url("assets/images/section3img4.webp");
+
+}
+
+.s3box5 {
+    background-image: url("assets/images/section3img5.webp");
+
+}
+
+.s3box6 {
+    background-image: url("assets/images/section3img6.webp");
+
+}
+
+.hide-s3:hover {
+    overflow: hidden;
+}
+.tran-s3:hover{
+    transform: scale(1.04,1.04);
+    transition: all 1s;
+
+}
+
+.s3btn {
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.s3btn2:hover {
+    backdrop-filter: blur(10px);
+    /* transition: all 1ms; */
+}
+
+.s3end {
+    padding-top: 30px;
+    font-size: 13px;
+    color: grey;
+}
+
+
+/*------------------------------------Section4 Start --------------------------------------*/
+.section4{
+    padding: 50px;
+    margin-bottom: 150px;
+}
+.col1s4{
+    padding-left: 50px;
+}
+.s4h{
+    padding-top: 100px;
+}
+.s4btn{
+    padding-right: 200px;
+    padding-top: 30px;
+}
+
+
+/*------------------------------------Section5  Start --------------------------------------*/
+.s5in{
+    height: 50px;
+}
+
+/*------------------------------------Section6  Start --------------------------------------*/
+.section6{
+    height: 200px;
+}
+/*------------------------------------Section8  Start --------------------------------------*/
+.section8{
+
+}
+.row-s8{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.hide-s8{
+    overflow: hidden;
+}
+
+.box1-s8, .box2-s8, .box3-s8{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+.box1-s8{
+    background-image: url("assets/images/section8img1.webp");
+}
+.box2-s8{
+    background-image: url("assets/images/section8img2.webp");
+}
+.box3-s8{
+    background-image: url("assets/images/section8img3.webp");
+}
+
+.box1-s8:hover, .box2-s8:hover,  .box3-s8:hover{
+    transform: scale(1.06,1.06);
+    transition: 0.5s;
+}
+
+
+.s8-h3{
+    padding-top: 280px;
+    font-size: 20px;
+}
+
+.s8-icon{
+    padding-left: 120px;
+}
+
+

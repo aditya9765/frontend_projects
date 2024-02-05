@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="ministore.css">
+    <script src="https://kit.fontawesome.com/505e2889d6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!-- ----------------------nav bar--------------------- -->
+    <section class="section1">
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/asset 0.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">WATCHES</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">SALE </a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">BLOG </a>
+                        </li>
+                        <li class=" dropdown nav-item px-3">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PAGES
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">ABOUT</a></li>
+                                <li><a class="dropdown-item" href="#">BLOG</a></li>
+                                <li><a class="dropdown-item" href="#">SHOP</a></li>
+                                <li><a class="dropdown-item" href="#">CART</a></li>
+                                <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+                                <li><a class="dropdown-item" href="#">SINGLE POST</a></li>
+                                <li><a class="dropdown-item" href="#">SINGLE PRODUCT</a></li>
+                                <li><a class="dropdown-item" href="#">CONTACT</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-user fa-lg"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-cart-shopping fa-lg"></i>
+                            </a>
+                        </li>
+
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </section>
+
+
+    <section class="section2">
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner bg-dark">
+                <div class="carousel-item active s1img">
+                    <img src="assets/images/asset 1.png" class="d-block w-80" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="textincarousel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+                            officiis.</p>
+                        <h5 class="btn bg-info text-secondary-emphasis">SHOP PRODUCT</h5>
+                    </div>
+                </div>
+                <div class="carousel-item active s1img">
+                    <img src="assets/images/asset 1.png" class="d-block w-80" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="textincarousel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+                            officiis.</p>
+                        <h5 class="btn bg-info text-secondary-emphasis">SHOP PRODUCT</h5>
+                    </div>
+                </div>
+                <div class="carousel-item active s1img">
+                    <img src="assets/images/asset 1.png" class="d-block w-80" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="textincarousel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+                            officiis.</p>
+                        <h5 class="btn bg-info text-secondary-emphasis">SHOP PRODUCT</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ---- ---- ---- ---- ---- Carousel End---- ---- ---- ---- ---- ---- -->
+    <section class=" container section3">
+        <div class="row mt-5">
+
+
+            <div class="my-5 col-lg-3 col-md-4 col-12">
+                <div class="row">
+                    <div class=" col-lg-1 col-md-4 col-12 pt-1 ">
+                        <i class=" text-info fa-solid fa-cart-shopping fa-xl text-start"></i>
+                    </div>
+                    <div class="col-lg-11 ps-3 col-md-4 col-12">
+                        <span class="fs-5">GUARANTEE </span>
+                        <p class="text-secondary">Consectetur adipi elit lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-5 col-lg-3 col-md-4 col-12">
+                <div class="row">
+                    <div class=" col-lg-1 col-md-4 col-12 pt-1  ">
+                        <i class=" text-info fa-solid fa-cart-shopping fa-xl text-start"></i>
+                    </div>
+                    <div class="col-lg-11 ps-3 col-md-4 col-12">
+                        <span class="fs-5">GUARANTEE </span>
+                        <p class="text-secondary">Consectetur adipi elit lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-5 col-lg-3 col-md-4 col-12">
+                <div class="row">
+                    <div class=" col-lg-1 col-md-4 col-12 pt-1  ">
+                        <i class=" text-info fa-solid fa-cart-shopping fa-xl text-start"></i>
+                    </div>
+                    <div class="col-lg-11 ps-3 col-md-4 col-12">
+                        <span class="fs-5">GUARANTEE </span>
+                        <p class="text-secondary">Consectetur adipi elit lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-5 col-lg-3 col-md-4 col-12">
+                <div class="row">
+                    <div class=" col-lg-1 col-md-4 col-12 pt-1  ">
+                        <i class=" text-info fa-solid fa-cart-shopping fa-xl text-start"></i>
+                    </div>
+                    <div class="col-lg-11 ps-3 col-md-4 col-12">
+                        <span class="fs-5">100% SECURE PAYMENTS </span>
+                        <p class="text-secondary">Consectetur adipi elit lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+    <!-- ---- ---- ---- ---- ---- Section4 Start---- ---- ---- ---- ---- ---- -->
+
+    <section class="section4 container">
+        <div class="row">
+            <div class="col-lg-6 col-6 ">
+                <span class="fs-2"><b> MOBILE PRODUCTS </b></span>
+
+            </div>
+
+            <div class="col-lg-6 col-6 text-end ">
+                <span class="btn link-underline-dark">GOT TO SHOP</span>
+
+            </div>
+        </div>
+
+        <div class="row  mt-2">
+            <div class="mt-5 col_s4 position-relative col-lg-3 col-md-4 col-sm-12">
+                <div class="s4_img1hover" alt="">
+                </div>
+                <div class="btn s4_hoverbtn text-light "> ADD TO CART</div>
+
+                <div class=" d-flex justify-content-between">
+                    <p class="text-start fs-4">iphone10</p>
+                    <p class="text-end text-info fs-4">68$</p>
+                </div>
+
+            </div>
+
+            <div class="mt-5 col_s4 position-relative col-lg-3 col-md-4 col-sm-12">
+                <div class="s4_img2hover">
+                </div>
+                <div class="btn s4_hoverbtn text-light "> ADD TO CART</div>
+                <div class=" d-flex justify-content-between">
+                    <p class="text-start fs-4">iphone10</p>
+                    <p class="text-end text-info  fs-4">68$</p>
+                </div>
+            </div>
+
+            <div class="mt-5 col_s4 position-relative col-lg-3 col-md-4 col-sm-12">
+                <div class="s4_img3hover">
+
+                </div>
+                <div class="btn s4_hoverbtn text-light "> ADD TO CART</div>
+                <div class=" d-flex justify-content-between">
+                    <p class="text-start fs-4">iphone10</p>
+                    <p class="text-end text-info  fs-4">68$</p>
+                </div>
+            </div>
+
+            <div class="mt-5 col_s4 position-relative col-lg-3 col-md-4 col-sm-12">
+                <div class="s4_img4hover">
+                </div>
+                <div class="btn s4_hoverbtn text-light "> ADD TO CART</div>
+                <div class=" d-flex justify-content-between">
+                    <p class="text-start fs-4">iphone10</p>
+                    <p class="text-end  text-info fs-4">68$</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- ---- ---- ---- ---- ---- Section5 Start---- ---- ---- ---- ---- ---- -->
+
+
+
+    <section class="section5 container mt-5">
+        <div class="row">
+            <div class="col-lg-6 col-6 ">
+                <span class="fs-2"><b> SMART WATCHES </b></span>
+            </div>
+            <div class="col-lg-6 col-6  ">
+                <span class=" link-underline-dark d-flex justify-content-end btn "> GO TO SHOP </span>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="position-relative mt-5 cols5 col-lg-3 col-md-6 col-12">
+                <div class="s5img1_hover">
+                </div>
+                <div class="btn s5_hoverbtn bg-dark text-light"> ADD TO CART</div>
+                <div class="fs-4  d-flex justify-content-between ">
+                    <span class="text-start text-info">Smart Watch</span>
+                    <span class="text-end">100$</span>
+                </div>
+
+            </div>
+
+            <div class="position-relative mt-5 cols5 col-lg-3 col-md-6 col-12">
+                <div class="s5img2_hover">
+                </div>
+
+                <div class=" btn s5_hoverbtn bg-dark text-light"> ADD TO CART</div>
+                <div class="fs-4  d-flex justify-content-between ">
+                    <span class="text-start text-info">Smart Watch</span>
+                    <span class="text-end">100$</span>
+
+                </div>
+            </div>
+
+            <div class="position-relative mt-5 cols5 col-lg-3 col-md-6 col-12">
+                <div class="s5img3_hover">
+                </div>
+
+                <div class=" btn s5_hoverbtn bg-dark text-light"> ADD TO CART</div>
+                <div class="fs-4  d-flex justify-content-between ">
+                    <span class="text-start text-info">Smart Watch</span>
+                    <span class="text-end">100$</span>
+
+                </div>
+            </div>
+
+            <div class="position-relative mt-5 cols5 col-lg-3 col-md-6 col-12">
+                <div class="s5img4_hover">
+                </div>
+
+                <div class=" btn s5_hoverbtn bg-dark text-light"> ADD TO CART</div>
+                <div class="fs-4  d-flex justify-content-between ">
+                    <span class="text-start">Smart Watch</span>
+                    <span class="text-end text-info">100$</span>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ---- ---- ---- ---- ---- Section6 Start---- ---- ---- ---- ---- ---- -->
+
+    <section class="section6 container-fluid">
+        <div class=" container">
+            <div class="row">
+                <div class=" d-flex align-items-center justify-content-center col_s6 col-lg-6 ">
+                    <h2><span class="fs-4">10% off <br></span>
+                        <span class="fs-1"> NEW YEAR <br> SALE </span>
+                    </h2>
+
+                </div>
+                <div class=" d-flex col_s6 col-lg-6 ">
+                    <div class="s6img ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ---- ---- ---- ---- ---- Section7 Start---- ---- ---- ---- ---- ---- -->
+
+    <section class="section7 container">
+        <div class="row">
+            <div class=" col-lg-6 col-md-6 col-sm-6 ">
+                <span class="fs-2"><b>LATEST POSTS</b></span>
+            </div>
+            <div class="d-flex justify-content-end col-lg-6 col-md-6 col-sm-6 ">
+                <span class="btn">READ BLOG</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="assets/images/asset 12.jpeg" width="100%" alt="">
+                <span>
+                    <span class="text-secondary">
+                        FEB 22, 2023 - GADGETS
+                    </span>
+                    
+                    <br>
+                    <span class="fs-5" >
+                        <b>
+                            GET SOME COOL GADGETS IN 2023
+                        </b>
+                    </span>
+                    
+                </span>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="assets/images/asset 13.jpeg" width="100%" alt="">
+
+                <span>
+                    <span class="text-secondary">
+                        FEB 22, 2023 - GADGETS
+                    </span>
+                    
+                    <br>
+                    <span class="fs-5" >
+                        <b>
+                            GET SOME COOL GADGETS IN 2023
+                        </b>
+                    </span>
+                    
+                </span>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="assets/images/asset 14.jpeg" width="100%" alt="">
+
+                <span>
+                    <span class="text-secondary">
+                        FEB 22, 2023 - GADGETS
+                    </span>
+                    
+                    <br>
+                    <span class="fs-5" >
+                        <b>
+                            GET SOME COOL GADGETS IN 2023
+                        </b>
+                    </span>
+                    
+                </span>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/505e2889d6.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
