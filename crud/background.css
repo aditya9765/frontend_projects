@@ -1,0 +1,13 @@
+*{
+    color: rgb(24, 183, 231) !important;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    background-color:black !important;
+}
