@@ -1,1 +1,1 @@
-# frontend_projects
+#personal/practice_projects
