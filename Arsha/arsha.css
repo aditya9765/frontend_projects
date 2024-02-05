@@ -1,0 +1,144 @@
+.section1{
+    width: 100%;
+    background-color: #37517E;
+}
+.nav{
+    margin-left: 200px;
+}
+.s1b{
+    margin-left: 350px;
+}
+
+/* -----------------------------------nav end----------------------------------- */
+
+/* -----------------------------------section2 Start----------------------------------- */
+
+.section2{
+    background-color: #37517E;
+    height: 500px;
+
+}
+
+.s2img1{
+    animation-name: s2i1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+   
+}
+@keyframes s2i1{
+    from{
+        position: relative;
+        top: 20px;
+    }
+    to{
+        position: relative;
+        bottom:150px;
+        top: 0px;
+    }
+    
+}
+.s2icon1:hover{
+    color: aqua;
+}
+
+
+/* -----------------------------------section3 Start----------------------------------- */
+.s4_row{
+    padding: 100px;
+}
+
+/* -----------------------------------section5 Start----------------------------------- */
+.s5_col1 button:hover{
+    color: aqua;
+}
+
+/* -----------------------------------section6 Start----------------------------------- */
+.section6{
+    padding: 120px;
+}
+
+.s6_h1{
+    color:#37517E;
+}
+
+.s6_skill{
+    height: 10px;
+    background-color:#37517E;
+}
+
+.skill90{
+    width: 90%;
+}
+
+.skill75{
+    width: 75%;
+}
+
+.skill55{
+    width:55%;
+}
+
+/* -----------------------------------section8 Start----------------------------------- */
+.s8_col:hover{
+    position: relative;
+    bottom: 50px;
+
+}
+.shadow h3{
+    color:#37517E;
+}
+.shadow:hover h3{
+    color: #669eff;
+}
+
+/* -----------------------------------section9 Start----------------------------------- */
+.section9{
+    height: 350px;
+    width: 100%;
+    background-image: url("images/cta-bg.jpg");
+  
+}
+
+.s9_col2{
+    
+    padding: 100px;
+}
+
+/* -----------------------------------section10 Start----------------------------------- */
+
+.section10 img:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 1s;
+}
+
+.s10_hidden{
+    overflow: hidden;
+}
+
+
+/* -----------------------------------section11 Start----------------------------------- */
+.card{
+    padding: 10px;
+    width: 600px;
+}
+/* -----------------------------------section12 Start----------------------------------- */
+.s12_col1, .s12_col3{
+    height: 500px;
+}
+
+
+/* -----------------------------------section13 Start----------------------------------- */
+
+
+.s13_col2in{
+    height: 48px;
+}
+/* -----------------------------------footer Start----------------------------------- */
+.footer{
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    background-color: #37517E;
+}
